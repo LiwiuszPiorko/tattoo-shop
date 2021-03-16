@@ -131,7 +131,7 @@ li:hover{
 }
 .image{
     width: 30%;
-    height: 90%;
+    /* height: 90%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -557,6 +557,32 @@ iframe{
 
 
 @media(orientation:portrait){
+    .icons{
+        top: 0;
+        right: 5%;
+    }
+    .icons i{
+        font-size: 8vw;
+    }
+    li{
+        font-size: 4.5vw;
+    }
+    .logo h1{
+        font-size: 8vw;
+    }
+    .logo p{
+        font-size: 2vw;
+    }
+    .main h1{
+        font-size: 5.5vw;
+    }
+    .image{
+        width: 50%;
+    }
+    .image h2{
+        font-size: 2.5vw;
+    }
+
     .photos{
         flex-direction: column;
     }
@@ -568,6 +594,101 @@ iframe{
         width: 90%;
         height: 70%;
         position: relative;
+    }
+    .picture1{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture2{
+        width: 40%;
+        height: 45%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture3{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture4{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture5{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture6{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture7{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture8{
+        width: 40%;
+        height: 45%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture9{
+        width: 40%;
+        height: 35%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .picture10{
+        width: 40%;
+        height: 45%;
+        padding: .5em;
+        padding-bottom: 2em;
+    }
+    .media-logo{
+        width: 100%;
+    }
+    .media-logo h1{
+        font-size: 6vw;
+    }
+    .media-logo p{
+        font-size: 2.5vw;
+    }
+    .media-logo button{
+        font-size: 2.5vw;
+
+    }
+    .contact{
+        flex-direction: column  ;
+    }
+    .contact-link{
+        font-size: 3vw;
+    }
+    .contact-link span{
+        font-size: 6vw;
+    }
+    .contact-link a{
+        font-size: 3vw;
+    }
+    .adress{
+        width: 90%;
+        height: 90%;
+    }
+    .map{
+        height: 80%;
+    }
+    .small-logo{
+     opacity: 0;
     }
 }
 
