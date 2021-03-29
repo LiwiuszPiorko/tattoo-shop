@@ -140,6 +140,7 @@ li:hover{
     background-image: url(img/pexels-bruno-salvadori-2269872.jpg);
     background-size: cover;
     background-position: center;
+    border: 2px solid black;
 }
 .image:nth-of-type(2) img{
     position: relative;
